@@ -22,5 +22,5 @@ app.use("/api/payment", require("./routes/paymentRoutes"));
 app.use("/api/upload", require("./routes/uploadRoutes"));
 
 app.listen(process.env.PORT || 5000, () => {
-  console.log("Server running on port 5000");
+  console.log("Server running...");
 });
